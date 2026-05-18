@@ -1,12 +1,12 @@
-![logo](assets/logo_small.png)
+<p align="center">
+    <img src="assets/logo_small.png" alt="Logo" width="200">
+</p>
 
 A curated list of awesome Odin libraries, software and resources.
 
 [Odin](https://odin-lang.org/) is a general-purpose programming language built for high-performance, modern systems and data-oriented programming.
 
-Starred resources (⭐) are 
-
-> [!IMPORTANT]
+> [!NOTE]
 > Many commonly used bindings are already included in the [Vendor Collection](https://pkg.odin-lang.org/vendor/) which comes with the compiler
 
 # Contents
