@@ -39,10 +39,7 @@ A curated list of awesome Odin libraries, software and resources.
 | [Karl 2D](https://github.com/karl-zylinski/karl2d) | Odin 2D game library. Beginner friendly and easy to modify | [Zlib](https://github.com/karl-zylinski/karl2d/blob/master/LICENSE) | Framework
 | [Jamgine](https://github.com/asbott/jamgine/tree/audio) | Self-contained realtime graphical application engine with a simplistic design philosophy | [MIT](https://github.com/asbott/jamgine/blob/main/LICENSE) | Gamedev, Engine, Graphics, Vulkan
 | [LBP Serialization](https://github.com/jakubtomsu/odin-lbp-serialization) | Easy-to-use LBP binary serialization utility | [MIT](https://github.com/jakubtomsu/odin-lbp-serialization/blob/main/LICENSE) | Gamedev, Serialization, Assets
-| [GL Font](https://github.com/vassvik/odin-gl_font) | A library for quickly setting up font rendering | [Missing](https://github.com/vassvik/odin-gl_font/blob/master/LICENSE) | OpenGL, Graphics, Font
 | [jobs](https://github.com/jakubtomsu/jobs) | Job system | [MIT](https://github.com/jakubtomsu/jobs/blob/main/LICENSE) | Gamedev
-| [glcache](https://github.com/DragosPopse/glcache) | Cached OpenGL calls | None | OpenGL, Graphics, Gamedev
-| [Marshmallow engine](https://github.com/DragosPopse/marshmallow) | WIP Game Engine written in pure Odin | None | Gamedev, Engine
 | [Godot Toolkit](https://github.com/dresswithpockets/odin-godot) | Toolkit for Godot 4.4 to work with GDExtension and generating boilerplate | [Apache 2.0](https://github.com/dresswithpockets/odin-godot/blob/main/LICENSE) | Gamedev, Engine, Utility
 | [glTF2](https://github.com/Pawel82S/glTF2) ⭐ | Native Odin implementation of glTF2 loading file format | [MIT](https://github.com/Pawel82S/glTF2/blob/master/LICENSE) | Gamedev, Format, 3D
 | [Aseprite loader](https://github.com/blob1807/odin-aseprite) | Handler for Aseprite's .ase/.aseprite, .aseprite-extension & extended .gpl files writen in Odin | [BSD 3-Clause](https://github.com/blob1807/odin-aseprite/blob/main/LICENSE) | Gamedev, 2D, Format
@@ -61,6 +58,7 @@ A curated list of awesome Odin libraries, software and resources.
 | [odecs](https://github.com/NateTheGreatt/odecs) | A simple, modern ECS built in Odin. | [MIT](https://github.com/NateTheGreatt/odecs/blob/main/license) | Gamedev, ECS
 | [moecs](https://github.com/helioscout/moecs) | Easy to use **mo**tivated **e**ntity **c**omponent **s**ystem. | [GPL-3.0](https://github.com/helioscout/moecs/blob/master/LICENSE.md) | Gamedev, ECS
 | [Odin Unity Interop](https://github.com/herohiralal/com.herohiralal.odininterop) | Odin interoperability for Unity. Works with Windows, Mac, Linux, iOS, Android. Super-easy to generate C# bindings, and the package already ships with a lot of necessary ones. | [Apache 2.0](https://github.com/herohiralal/com.herohiralal.odininterop/blob/main/LICENSE) | GameDev, Unity, Engine, Utility
+| [Marshmallow engine](https://github.com/DragosPopse/marshmallow) | WIP Game Engine written in pure Odin | None | Gamedev, Engine
 
 ### Formats
 | Name | Description | License | Tags |
@@ -205,7 +203,6 @@ If you can't find the bindings you need, then you can try using this generator: 
 | [libbfd](https://github.com/wardjm/odin-bfd) | Bindings for [libbfd](https://github.com/CyberGrandChallenge/binutils/tree/master/bfd) | [GPLv2](https://github.com/wardjm/odin-bfd/blob/main/LICENSE) |
 | [LibClang](https://github.com/Platin21/odin-clang) | Bindings for libClang for Odin | None |
 | [libpcap](https://github.com/Pix-xiP/odin-libpcap) | Bindings for [libpcap](https://github.com/the-tcpdump-group/libpcap) | None | Networking
-| [librg](https://github.com/librg/librg-odin)           | A binding for [librg](https://librg.handmade.network/), MMO networking library   | [Missing](https://github.com/librg/librg-odin/blob/master/LICENSE) | Gamedev, Server, Networking
 | [libui-ng](https://github.com/henkman/odin-libui-ng) | Bindings for [libui-ng](https://github.com/libui-ng/libui-ng): a portable GUI library for C. "libui for the next generation" | None | UI, Tools
 | [LLVM](https://github.com/DeLuxe-1337/LLVM-Odin) | Generated bindings for [LLVM](https://llvm.org/) (LLVM-C 17.0.1), currently Windows-only | None | Compilers
 | [Luau](https://github.com/MineBill/odin-luau) | A fast, small, safe, gradually typed embeddable scripting language derived from Lua | [MIT](https://github.com/MineBill/odin-luau/blob/master/LICENSE) | Language, Lua
@@ -220,15 +217,12 @@ If you can't find the bindings you need, then you can try using this generator: 
 | [odin-renderdoc](https://github.com/2nafish117/odin-renderdoc) | Bindings for [Renderdoc API](https://github.com/baldurk/renderdoc/blob/v1.x/renderdoc/api/app/renderdoc_app.h), capture frames and open Renderdoc UI directly from your application | [MIT](https://github.com/2nafish117/odin-renderdoc/blob/main/LICENSE) | Gamedev, Graphics
 | [ONNX](https://github.com/yevhen-k/onnx-odin-bindings) | Bindings for [ONNX](https://onnx.ai/) and a generator | [MIT](https://github.com/yevhen-k/onnx-odin-bindings/blob/master/LICENSE) | ML, GPU
 | [OpenAL](https://github.com/elvodqa/odin-al) | Bindings for [OpenAL](https://www.openal.org/), a cross-platform 3D audio API appropriate for use with gaming applications and many other types of audio applications | None | Gamedev, Audio
-| [OpenAL](https://github.com/thebirk/odin-al)               | A binding for [OpenAL](https://www.openal.org), a cross-platform 3D audio API | [MIT](https://github.com/thebirk/odin-al/blob/master/LICENSE) | Gamedev, Audio |
 | [PostgreSQL](https://github.com/laytan/odin-postgresql) | Complete & documented bindings for [libpq (PostgreSQL)](https://www.postgresql.org/) | [MIT](https://github.com/laytan/odin-postgresql/blob/main/LICENSE) | Database, Webdev, SQL
 | [Raqm](https://codeberg.org/mgavioli/odin-raqm) | Bindings for [Raqm](https://github.com/HOST-Oman/libraqm) | [BSD 2-clause](https://codeberg.org/mgavioli/odin-raqm/src/branch/main/LICENSE.md) | Text
 | [RGFW](https://github.com/ColleagueRiley/RGFW-Odin) | RGFW is a cross platform, lightweight, single header window abstraction library for creating and managing windows | [CC0](https://github.com/ColleagueRiley/RGFW-Odin/blob/main/LICENSE) | Gamedev, Graphics, Platform
-| [Rift](https://github.com/vassvik/odin-rift)           | A binding for the Oculus Rift SDK for VR | [Unlicense](https://github.com/vassvik/odin-rift/blob/master/LICENSE) | Gamedev, VR
 | [Rure](https://github.com/enerqi/odin-rure)       | Bindings for [Rust Regex](https://github.com/rust-lang/regex/tree/master/regex-capi) | [zlib](https://github.com/enerqi/odin-rure/blob/master/LICENSE) | Regex
 | [Steamworks](https://github.com/jakubtomsu/odin-steamworks) | Bindings for [Steamworks SDK](https://partner.steamgames.com/doc/sdk) | [MIT](https://github.com/jakubtomsu/odin-steamworks/blob/main/LICENSE) | Gamedev
 | [SQLite3](https://github.com/saenai255/odin-sqlite3) | SQLite3 bindings | [MIT](https://github.com/saenai255/odin-sqlite3/blob/master/LICENSE) | Database, Webdev
-| [Termbox](https://github.com/thebirk/odin-termbox)     | A binding for [termbox](https://github.com/nsf/termbox), a text-based user interface alternative to ncurses | [MIT](https://github.com/thebirk/odin-termbox/blob/master/LICENSE) | UI
 | [tinyfiledialogs](https://github.com/duffn/odin-tinyfiledialogs) | Bindings for the [tinyfiledialogs](https://sourceforge.net/projects/tinyfiledialogs/) native dialog box library. | [zlib](https://github.com/duffn/odin-tinyfiledialogs/blob/main/LICENSE) | UI
 | [Tracy](https://github.com/oskarnp/odin-tracy) | Bindings for the Tracy profiler | [BSD-2-Clause](https://github.com/oskarnp/odin-tracy/blob/master/LICENSE) | Gamedev, Performance
 | [ufbx](https://github.com/cshenton/odin-ufbx)  | Bindings for [ufbx](https://github.com/ufbx/ufbx), a simple FBX loader library | [Unlicense](https://github.com/cshenton/odin-ufbx/blob/master/LICENSE) | Gamedev, Assets, 3D
