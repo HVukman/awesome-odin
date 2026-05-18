@@ -35,13 +35,13 @@ A curated list of awesome Odin libraries, software and resources.
 ### Gamedev
 | Name | Description | License | Tags |
 | ---- | ----------- | ------- | ---- |
-| [Ravn Engine](https://github.com/jakubtomsu/ravn) | Simple and efficient framework for 2D and 3D game development | [MIT](https://github.com/jakubtomsu/ravn/blob/main/LICENSE.txt) | Gamedev
+| [Ravn Engine](https://github.com/jakubtomsu/ravn) | Simple and efficient framework for 2D and 3D game development. | [MIT](https://github.com/jakubtomsu/ravn/blob/main/LICENSE.txt) | Gamedev
 | [Karl 2D](https://github.com/karl-zylinski/karl2d) | Odin 2D game library. Beginner friendly and easy to modify | [Zlib](https://github.com/karl-zylinski/karl2d/blob/master/LICENSE) | Framework
 | [Jamgine](https://github.com/asbott/jamgine/tree/audio) | Self-contained realtime graphical application engine with a simplistic design philosophy | [MIT](https://github.com/asbott/jamgine/blob/main/LICENSE) | Gamedev, Engine, Graphics, Vulkan
 | [LBP Serialization](https://github.com/jakubtomsu/odin-lbp-serialization) | Easy-to-use LBP binary serialization utility | [MIT](https://github.com/jakubtomsu/odin-lbp-serialization/blob/main/LICENSE) | Gamedev, Serialization, Assets
 | [jobs](https://github.com/jakubtomsu/jobs) | Job system | [MIT](https://github.com/jakubtomsu/jobs/blob/main/LICENSE) | Gamedev
 | [Godot Toolkit](https://github.com/dresswithpockets/odin-godot) | Toolkit for Godot 4.4 to work with GDExtension and generating boilerplate | [Apache 2.0](https://github.com/dresswithpockets/odin-godot/blob/main/LICENSE) | Gamedev, Engine, Utility
-| [glTF2](https://github.com/Pawel82S/glTF2) ⭐ | Native Odin implementation of glTF2 loading file format | [MIT](https://github.com/Pawel82S/glTF2/blob/master/LICENSE) | Gamedev, Format, 3D
+| [glTF2](https://github.com/Pawel82S/glTF2) | Native Odin implementation of glTF2 loading file format | [MIT](https://github.com/Pawel82S/glTF2/blob/master/LICENSE) | Gamedev, Format, 3D
 | [Aseprite loader](https://github.com/blob1807/odin-aseprite) | Handler for Aseprite's .ase/.aseprite, .aseprite-extension & extended .gpl files writen in Odin | [BSD 3-Clause](https://github.com/blob1807/odin-aseprite/blob/main/LICENSE) | Gamedev, 2D, Format
 | [Odin + Raylib Hotreloading Template](https://github.com/karl-zylinski/odin-raylib-hot-reload-game-template) | An Odin + Raylib game template with Hot Reloading pre-setup. My game projects tend to have some things in common, so I made this template so I can get up and running quicker | [Custom](https://github.com/karl-zylinski/odin-raylib-hot-reload-game-template/blob/main/LICENSE) | Gamedev, Template, Raylib
 | [Odin + Sokol Template](https://github.com/karl-zylinski/odin-sokol-web) | An Odin + Sokol template with WASM support. | [MIT](https://github.com/karl-zylinski/odin-sokol-web/blob/main/LICENSE) | Gamedev, Template, Sokol
@@ -78,7 +78,6 @@ A curated list of awesome Odin libraries, software and resources.
 | Name | Description | License | Tags |
 | ---- | ----------- | ------- | ---- |
 | [Odin HTTP](https://github.com/laytan/odin-http) | A HTTP/1.1 server & client implementation for Odin purely written in Odin (besides OpenSSL) | [MIT](https://github.com/laytan/odin-http/blob/main/LICENSE) | Webdev, Server, Networking
-| [HTTP](https://github.com/Inch4Tk/odinhttp) | Simple Odin http(s) client | [BSD-3](https://github.com/Inch4Tk/odinhttp/blob/master/LICENSE) | Webdev
 
 ### Webdev
 | Name | Description | License | Tags |
@@ -105,7 +104,7 @@ A curated list of awesome Odin libraries, software and resources.
 | Name | Description | License | Tags |
 | ---- | ----------- | ------- | ---- |
 | [Simple History](https://github.com/Skytrias/simple-history) | A simple undo / redo history | [MIT](https://github.com/Skytrias/simple-history/blob/master/LICENSE) | UI, Gamedev, Tools, Editor
-| [ADS1256 driver](https://github.com/Platin21/ads1256-odin) | Driver for Ti ADS1256 | [MIT](https://github.com/Platin21/odin-bcm2835/blob/main/LICENSE) | Embedded
+| [ADS1256 driver](https://github.com/Platin21/ads1256-odin) | Driver for Ti ADS1256 | [MIT](https://github.com/Platin21/ads1256-odin/blob/main/LICENSE) | Embedded
 | [Mani](https://github.com/DragosPopse/mani) | Lua bidirectional bindings generator | None | Lua, Generator
 | [odin-build](https://github.com/DragosPopse/odin-build) | Build system for Odin | None | Auxiliary, Tooling
 | [Snowflake](https://github.com/laytan/odin-snowflake) | Twitter Snowflake UID generation | [MIT](https://github.com/laytan/odin-snowflake/blob/main/LICENSE) | UID
@@ -228,7 +227,6 @@ If you can't find the bindings you need, then you can try using this generator: 
 | [ufbx](https://github.com/cshenton/odin-ufbx)  | Bindings for [ufbx](https://github.com/ufbx/ufbx), a simple FBX loader library | [Unlicense](https://github.com/cshenton/odin-ufbx/blob/master/LICENSE) | Gamedev, Assets, 3D
 | [ufbx (xandron's updated fork)](https://github.com/xandaron/odin-ufbx) | Bindings for [ufbx](https://github.com/ufbx/ufbx), a simple FBX loader library | [Unlicense](https://github.com/xandaron/odin-ufbx/blob/xandaron/LICENSE) | Gamedev, Assets, 3D
 | [WebUI](https://github.com/webui-dev/odin-webui) | Bindings for [WebUI](https://github.com/webui-dev/webui), use your preferred language in the backend and modern web technologies in the frontend | [MIT](https://github.com/webui-dev/odin-webui/blob/main/LICENSE) | UI, Cross Platform
-| [WGPU](https://github.com/UsiTarek/wgpu-odin) | Bindings for [WGPU](https://sotrh.github.io/learn-wgpu/) | [Apache 2.0](https://github.com/UsiTarek/wgpu-odin/blob/main/LICENSE) | Gamedev, GPU, WGPU, Graphics
 | [XInput](https://github.com/ThisDrunkDane/odin-xinput) | A binding for [XInput](https://docs.microsoft.com/en-us/windows/desktop/xinput/), a windows input library | [MIT](https://github.com/ThisDrunkDane/odin-xinput/blob/master/LICENSE) | Gamedev, Windows, Input 
 | [yyjson](https://github.com/enerqi/odin-yyjson/)       | Bindings for [yyjson](https://github.com/ibireme/yyjson) | [zlib](https://github.com/enerqi/odin-yyjson/blob/master/LICENSE) | Serialization
 | [zeromq](https://github.com/zaklaus/odin-zeromq)       | A binding for [ZeroMQ](http://zeromq.org/), An open-source universal messaging library | [Apache 2.0](https://github.com/zaklaus/odin-zeromq/blob/master/LICENSE) | Networking
@@ -355,7 +353,6 @@ A list of interesting software built in Odin. It's not open-source, but it can s
 | [Sublime Text](https://github.com/odin-lang/sublime-odin) | Odin syntax definition for Sublime Text       | [MIT](https://github.com/odin-lang/sublime-odin/blob/master/LICENSE)
 | [GNU/Emacs](https://github.com/mattt-b/odin-mode)       | Odin editing mode for GNU/Emacs                 | None
 | [Flycheck](https://github.com/mattt-b/flycheck-odin) | GNU/Emacs flycheck support for Odin           | [Unlicense](https://github.com/mattt-b/flycheck-odin/blob/master/LICENSE)
-| [4coder](https://github.com/Skytrias/4coder_skytrias) | 4coder customization layer for odin | None
 | [Vim](https://github.com/Tetralux/odin.vim) | Odin highlighting for Vim | [MIT](https://github.com/Tetralux/odin.vim/blob/master/LICENSE)
 | [Tree Sitter](https://github.com/amaanq/tree-sitter-odin) | Odin Tree-sitter grammar | [MIT](https://github.com/ap29600/tree-sitter-odin/blob/main/LICENSE)
 | [Zed](https://github.com/clseibold/zed-odin) | Zed Editor plugin integrating OLS and Tree-sitter | [MIT](https://github.com/clseibold/zed-odin/blob/main/LICENSE)
@@ -380,7 +377,6 @@ A list of outdated/deprecated/archived libraries, included for the sake of compl
 | https://github.com/laytan/odin-pattern | check out `core:text/match`
 
 # Links
-- [Discord](https://twitter.com/odinlang)
 - [Reddit](https://www.reddit.com/r/odinlang/)
 - [Twitter](https://twitter.com/odinlang)
 - [Github](https://github.com/odin-lang/Odin)
