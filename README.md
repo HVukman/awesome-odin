@@ -4,7 +4,7 @@ A curated list of awesome Odin libraries, software and resources.
 
 [Odin](https://odin-lang.org/) is a general-purpose programming language built for high-performance, modern systems and data-oriented programming.
 
-A star (⭐) means the resource is exceptionally good.
+Starred resources (⭐) are 
 
 > [!IMPORTANT]
 > Many commonly used bindings are already included in the [Vendor Collection](https://pkg.odin-lang.org/vendor/) which comes with the compiler
@@ -16,7 +16,6 @@ A star (⭐) means the resource is exceptionally good.
 - [Gists](#gists)
 - [Resources](#resources)
 - [Built with Odin](#built-with-odin)
-- [Links](#links)
 
 ## Other Lists
 - [Odin Wiki Libs](https://github.com/odin-lang/Odin/wiki/Odin-Libs)
@@ -32,11 +31,12 @@ A star (⭐) means the resource is exceptionally good.
 
 # Packages
 ## Libraries
-List of libraries implemented in Odin
 
 ### Gamedev
 | Name | Description | License | Tags |
 | ---- | ----------- | ------- | ---- |
+| [Ravn Engine](https://github.com/jakubtomsu/ravn) | Simple and efficient framework for 2D and 3D game development | [MIT](https://github.com/jakubtomsu/ravn/blob/main/LICENSE.txt) | Gamedev
+| [Karl 2D](https://github.com/karl-zylinski/karl2d) | Odin 2D game library. Beginner friendly and easy to modify | [Zlib](https://github.com/karl-zylinski/karl2d/blob/master/LICENSE) | Framework
 | [Jamgine](https://github.com/asbott/jamgine/tree/audio) | Self-contained realtime graphical application engine with a simplistic design philosophy | [MIT](https://github.com/asbott/jamgine/blob/main/LICENSE) | Gamedev, Engine, Graphics, Vulkan
 | [LBP Serialization](https://github.com/jakubtomsu/odin-lbp-serialization) | Easy-to-use LBP binary serialization utility | [MIT](https://github.com/jakubtomsu/odin-lbp-serialization/blob/main/LICENSE) | Gamedev, Serialization, Assets
 | [GL Font](https://github.com/vassvik/odin-gl_font) | A library for quickly setting up font rendering | [Missing](https://github.com/vassvik/odin-gl_font/blob/master/LICENSE) | OpenGL, Graphics, Font
@@ -70,7 +70,7 @@ List of libraries implemented in Odin
 | [Tiled loader](https://github.com/SabeDoesThings/odin-tiled) | A simple Tiled map loader. | [MIT](https://github.com/SabeDoesThings/odin-tiled/blob/main/LICENSE) | Gamedev, Assets, Tools
 | [File Formats](https://github.com/Kelimion/odin_file_formats) | Odin implementations of various file formats - ISO, EBML | [BSD-3](https://github.com/Kelimion/odin_file_formats/blob/master/LICENSE.md) | Format
 | [INI Parser](https://github.com/laytan/odin-ini-parser) | .INI file parser | [MIT](https://github.com/laytan/odin-ini-parser/blob/main/LICENSE) | Format
-| [PDB Reader](https://github.com/DaseinPhaos/pdb) ⭐ | A library for reading `.pdb`s and dumping Windows stacktraces | [BSD-2-Clause](https://github.com/DaseinPhaos/pdb/blob/main/LICENSE) | Debugging, Auxiliary
+| [PDB Reader](https://github.com/DaseinPhaos/pdb) | A library for reading `.pdb`s and dumping Windows stacktraces | [BSD-2-Clause](https://github.com/DaseinPhaos/pdb/blob/main/LICENSE) | Debugging, Auxiliary
 | [Java classfile parser](https://github.com/FourteenBrush/Classreader) | A parser and verifier for Java `.class` files | [MIT](https://github.com/FourteenBrush/Classreader/blob/main/LICENSE) | Format, Java classfile
 | [RFC 3339 Date Parser](https://github.com/Up05/odin-RFC-3339-date-parser) | Parser for the RFC 3339 date & time spec written in odin, follows the TOML spec | None | Format, Parser
 | [TOML Parser](https://github.com/Up05/toml_parser) | A simple TOML parser | [MIT](https://github.com/Up05/toml_parser/blob/main/LICENSE)
@@ -79,7 +79,7 @@ List of libraries implemented in Odin
 ### Networking
 | Name | Description | License | Tags |
 | ---- | ----------- | ------- | ---- |
-| [Odin HTTP](https://github.com/laytan/odin-http) ⭐ | A HTTP/1.1 server & client implementation for Odin purely written in Odin (besides OpenSSL) | [MIT](https://github.com/laytan/odin-http/blob/main/LICENSE) | Webdev, Server, Networking
+| [Odin HTTP](https://github.com/laytan/odin-http) | A HTTP/1.1 server & client implementation for Odin purely written in Odin (besides OpenSSL) | [MIT](https://github.com/laytan/odin-http/blob/main/LICENSE) | Webdev, Server, Networking
 | [HTTP](https://github.com/Inch4Tk/odinhttp) | Simple Odin http(s) client | [BSD-3](https://github.com/Inch4Tk/odinhttp/blob/master/LICENSE) | Webdev
 
 ### Webdev
@@ -164,7 +164,7 @@ Vendor packages are commonly-used third-party libraries distributed along with t
 
 | Name | Description | Tags |
 | ---- | ----------- | ---- |
-| [raylib](https://pkg.odin-lang.org/vendor/raylib/) ⭐               | Bindings for [Raylib](https://www.raylib.com/index.html), a simple and easy-to-use library to enjoy videogames programming | Gamedev, Graphics
+| [raylib](https://pkg.odin-lang.org/vendor/raylib/)               | Bindings for [Raylib](https://www.raylib.com/index.html), a simple and easy-to-use library to enjoy videogames programming | Gamedev, Graphics
 | [glfw](https://pkg.odin-lang.org/vendor/glfw/)                   | Bindings for [GLFW](https://www.glfw.org/), a multi-platform library for OpenGL, OpenGL ES and Vulkan development on the desktop | Gamedev, Graphics
 | [lua](https://pkg.odin-lang.org/vendor/lua/5.4)                     | Bindings for [Lua](https://www.lua.org/about), a powerful, simple and embeddable scripting language | Lua
 | [fontstash](https://pkg.odin-lang.org/vendor/fontstash/)         | Odin implementation of [Fontstash](https://github.com/memononen/fontstash) - a lightweight online font texture atlas builder | Gamedev, Text, Graphics
@@ -183,15 +183,16 @@ If you can't find the bindings you need, then you can try using this generator: 
 
 | Name | Description | License | Tags |
 | ---- | ----------- | ------- | ---- |
+| [Dear Imgui](https://gitlab.com/L-4/odin-imgui) | Generated Dear ImGui bindings using dear_bindings. About Dear ImGui is a bloat-free Graphical User interface for C++ with minimal dependencies | [MIT](https://gitlab.com/L-4/odin-imgui/-/blob/main/LICENSE?ref_type=heads) | UI, ImGui, Gamedev, Tools, C++, Cross Platform
+| [Sokol](https://github.com/floooh/sokol-odin/) | Odin bindings for [Sokol](https://github.com/floooh/sokol/), a collection of single-header C libraries for cross-platform windowing, graphics, audio, file loading, and more! | [zlib](https://github.com/floooh/sokol/blob/master/LICENSE) | Gamedev, Input, Audio, Cross-Platform
 | [Assimp](https://github.com/CoolDove/odin-assimp/tree/master) | Bindings for [Assimp](https://assimp.org/), Open Asset Import Library is a library to load various 3d file formats into a shared, in-memory imediate format. It supports more than 40 file formats for import and a growing selection of file formats for export | [MIT](https://github.com/CoolDove/odin-assimp/blob/master/LICENSE) | Assets, Gamedev, Format
 | [bcm2835](https://github.com/Platin21/odin-bcm2835/tree/main) | Bindings for BCM2835 Broadcom chip/raspberry pi1/2/3/4 | [MIT](https://github.com/Platin21/odin-bcm2835/blob/main/LICENSE) | Embedded
-| [bgfx](https://github.com/hitchh1k3r/odin-bgfx/) ⭐ | Bindings for [bgfx](https://github.com/bkaradzic/bgfx), a cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library | [Unlicense](https://github.com/hitchh1k3r/odin-bgfx/) | Graphics, Gamedev
+| [bgfx](https://github.com/hitchh1k3r/odin-bgfx/) | Bindings for [bgfx](https://github.com/bkaradzic/bgfx), a cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library | [Unlicense](https://github.com/hitchh1k3r/odin-bgfx/) | Graphics, Gamedev
 | [Box2C](https://gitlab.com/L-4/odin-box2c) | Idiomatic Odin bindings for Box2c (aka Box2D 3.0, not to be confused with older versions which were written in C++!) | None | Gamedev, Physics
 | [clay](https://github.com/nicbarker/clay/tree/main/bindings/odin) | High performance UI layout library in C (Official Odin Bindings) | [zlib/libpng](https://github.com/nicbarker/clay/blob/main/LICENSE.md) | UI Layout
 | [Box2C (Odin-style)](https://github.com/cr15th0f3r/odin-box2d) | Box2D 3.0 bindings for Odin language | None | Gamedev, Physics
 | [Clipper2](https://github.com/Anaxarchus/odin_clipper2) | Polygon Clipping, Offsetting & Triangulation | [BSL-1.0](https://github.com/AngusJohnson/Clipper2/blob/main/LICENSE) | Gamedev, 2D
 | [CUE SDK](https://github.com/Kelimion/odin-cue-sdk) | Bindings for the [Corsair CUE SDK](https://github.com/CorsairOfficial/cue-sdk). Developers can use the iCUE SDK to access CORSAIR devices, enabling them to control device LEDs and create custom lighting experiences. | [Unlicense](https://github.com/Kelimion/odin-cue-sdk/blob/master/corsair-cue/bindings.odin) |
-| [Dear Imgui](https://gitlab.com/L-4/odin-imgui) ⭐ | Generated Dear ImGui bindings using dear_bindings. About Dear ImGui is a bloat-free Graphical User interface for C++ with minimal dependencies | [MIT](https://gitlab.com/L-4/odin-imgui/-/blob/main/LICENSE?ref_type=heads) | UI, ImGui, Gamedev, Tools, C++, Cross Platform |
 | [DuckDB](https://codeberg.org/Sylphrena/OdinDuckDB) | Bindings for [DuckDB](https://duckdb.org/), a fast in-process analytical database | [0BSD](https://codeberg.org/Sylphrena/OdinDuckDB/src/branch/main/LICENSE) | Webdev, Database, SQL
 | [EFSW](https://github.com/dch-GH/efsw-odin) | Bindings for the [Entropia file system watcher\(https://github.com/diegostamigni/efsw) | [Unknown](https://github.com/dch-GH/efsw-odin/blob/main/LICENSE) | Files
 | [ffmpeg](https://github.com/numbers-zz/odin-ffmpeg-bindings) | Bindings for [ffmpeg](https://ffmpeg.org/), a complete, cross-platform solution to record, convert and stream audio and video | None | Video
@@ -225,12 +226,11 @@ If you can't find the bindings you need, then you can try using this generator: 
 | [RGFW](https://github.com/ColleagueRiley/RGFW-Odin) | RGFW is a cross platform, lightweight, single header window abstraction library for creating and managing windows | [CC0](https://github.com/ColleagueRiley/RGFW-Odin/blob/main/LICENSE) | Gamedev, Graphics, Platform
 | [Rift](https://github.com/vassvik/odin-rift)           | A binding for the Oculus Rift SDK for VR | [Unlicense](https://github.com/vassvik/odin-rift/blob/master/LICENSE) | Gamedev, VR
 | [Rure](https://github.com/enerqi/odin-rure)       | Bindings for [Rust Regex](https://github.com/rust-lang/regex/tree/master/regex-capi) | [zlib](https://github.com/enerqi/odin-rure/blob/master/LICENSE) | Regex
-| [Sokol](https://github.com/floooh/sokol-odin/) ⭐ | Odin bindings for [Sokol](https://github.com/floooh/sokol/), a collection of single-header C libraries for cross-platform windowing, graphics, audio, file loading, and more! | [zlib](https://github.com/floooh/sokol/blob/master/LICENSE) | Gamedev, Input, Audio, Cross-Platform
 | [Steamworks](https://github.com/jakubtomsu/odin-steamworks) | Bindings for [Steamworks SDK](https://partner.steamgames.com/doc/sdk) | [MIT](https://github.com/jakubtomsu/odin-steamworks/blob/main/LICENSE) | Gamedev
 | [SQLite3](https://github.com/saenai255/odin-sqlite3) | SQLite3 bindings | [MIT](https://github.com/saenai255/odin-sqlite3/blob/master/LICENSE) | Database, Webdev
 | [Termbox](https://github.com/thebirk/odin-termbox)     | A binding for [termbox](https://github.com/nsf/termbox), a text-based user interface alternative to ncurses | [MIT](https://github.com/thebirk/odin-termbox/blob/master/LICENSE) | UI
 | [tinyfiledialogs](https://github.com/duffn/odin-tinyfiledialogs) | Bindings for the [tinyfiledialogs](https://sourceforge.net/projects/tinyfiledialogs/) native dialog box library. | [zlib](https://github.com/duffn/odin-tinyfiledialogs/blob/main/LICENSE) | UI
-| [Tracy](https://github.com/oskarnp/odin-tracy) ⭐ | Bindings for the Tracy profiler | [BSD-2-Clause](https://github.com/oskarnp/odin-tracy/blob/master/LICENSE) | Gamedev, Performance
+| [Tracy](https://github.com/oskarnp/odin-tracy) | Bindings for the Tracy profiler | [BSD-2-Clause](https://github.com/oskarnp/odin-tracy/blob/master/LICENSE) | Gamedev, Performance
 | [ufbx](https://github.com/cshenton/odin-ufbx)  | Bindings for [ufbx](https://github.com/ufbx/ufbx), a simple FBX loader library | [Unlicense](https://github.com/cshenton/odin-ufbx/blob/master/LICENSE) | Gamedev, Assets, 3D
 | [ufbx (xandron's updated fork)](https://github.com/xandaron/odin-ufbx) | Bindings for [ufbx](https://github.com/ufbx/ufbx), a simple FBX loader library | [Unlicense](https://github.com/xandaron/odin-ufbx/blob/xandaron/LICENSE) | Gamedev, Assets, 3D
 | [WebUI](https://github.com/webui-dev/odin-webui) | Bindings for [WebUI](https://github.com/webui-dev/webui), use your preferred language in the backend and modern web technologies in the frontend | [MIT](https://github.com/webui-dev/odin-webui/blob/main/LICENSE) | UI, Cross Platform
@@ -277,15 +277,15 @@ List of Odin tutorials, articles, videos and other resources.
 
 | Name | Description | Tags |
 | ---- | ----------- | ---- |
-| [Odin Overview](https://odin-lang.org/docs/overview/) ⭐ | Official Odin language overview | Example, Article
-| [Memory Allocation Strategies](https://www.gingerbill.org/article/2019/02/01/memory-allocation-strategies-001/) ⭐ | Series about memory allocation by GingerBill | Article
+| [Odin Overview](https://odin-lang.org/docs/overview/) | Official Odin language overview | Example, Article
+| [Memory Allocation Strategies](https://www.gingerbill.org/article/2019/02/01/memory-allocation-strategies-001/) | Series about memory allocation by GingerBill | Article
 | [demo.odin](https://github.com/odin-lang/Odin/blob/master/examples/demo/demo.odin) | A demo of basically all odin features | Example 
 | [Introduction to the Odin programming language](https://www.youtube.com/watch?v=VLcTrUhSdlg&list=PLEQTpgQ9eFCGlQa2z0j_TQTGggHOIF8Z1&ab_channel=RickardAndersson) | Video series about Odin and programming | Youtube, Playlist |
 | [Space Shooter with SDL2 and Odin](https://youtu.be/GxuEeAqtlWc?si=Bfa38kWo_RFUPV2b) | Video series about programming a Space Shooter game with SDL2 and Odin | Youtube, Tutorial, Playlist |
 | [Odin Programming Language: An Introduction](https://youtu.be/rCqFdYUnC24?si=Oq2FEfF1Zi2dVzv9) | Introduction to the Odin Programming Language by Ginger Bill from 2020-11-26 | Youtube, Talk |
 | [Jai vs Odin systems programming languages](https://youtu.be/M763xHjsPk4?si=2Q_c2DGmC_yn0b2U) | Comparison of Jai and Odin (Non-spicy takes!) | Youtube |
 | [Why I Use Odin for Game and Engine Development](https://youtu.be/D9oO4L0vt_U?si=dwUHl1NVlqqvMk3Q) | Video essay explaining what makes Odin great for game and engine development | Youtube, Gamedev |
-| [Make games using Odin + Raylib](https://youtu.be/tIoQ5jMo4bE?si=kbHNLyzps1TSjbPk) ⭐ | Series about making a 2D platformer in Odin and Raylib | Youtube, Playlist, Gamedev |
+| [Make games using Odin + Raylib](https://youtu.be/tIoQ5jMo4bE?si=kbHNLyzps1TSjbPk) | Series about making a 2D platformer in Odin and Raylib | Youtube, Playlist, Gamedev |
 | [5 Reasons why Odinlang is great for gamedev](https://youtu.be/ZBfOUa8wY1I?si=dHMcIkNyOi3cLac4) | Video about what makes odin great for gamedev | Youtube, Gamedev |
 | [Odin + WASM = 💙](https://github.com/thetarnav/odin-wasm) | Example of using Odin, WASM and WebGL together. | Example, WASM, Webdev
 | [Solar Storm Renderer](https://jakubtomsu.github.io/posts/solar_storm_renderer/) | A deepdive into the rendering techology of the game Solar Storm | Article
@@ -297,8 +297,8 @@ List of Odin tutorials, articles, videos and other resources.
 | [Introduction to the Odin Programming Language](https://zylinski.se/posts/introduction-to-odin/) | Long article about the basics of Odin. Finishes off with some examples of useful core libraries | Article
 | [Snake game from start to finish](https://www.youtube.com/watch?v=lfiQNCNUifI) | 90 minute video of how to implement a snake game using Raylib | Youtube, Gamedev
 | [Setup Sublime Text for Odin](https://www.youtube.com/watch?v=RF2MgVqfBV8) | Shows how to turn Sublime Text into a powerful Odin development environment, including code completion | Youtube, Utility
-| [Make a Breakout game from start to finish](https://www.youtube.com/watch?v=vfgZOEvO0kM&ab_channel=KarlZylinski) ⭐ | Karl Zylinski shows how to make a breakout clone in Odin+Raylib in 2 hours | Youtube, Tutorial, Gamedev
-| [Make a Snake game from start to finish](https://youtu.be/lfiQNCNUifI?si=I3x4X7niiFHiXl_n) ⭐ | Beginner tutorial about making a simple snake game in Raylib | Youtube, Tutorial, Gamedev
+| [Make a Breakout game from start to finish](https://www.youtube.com/watch?v=vfgZOEvO0kM&ab_channel=KarlZylinski) | Karl Zylinski shows how to make a breakout clone in Odin+Raylib in 2 hours | Youtube, Tutorial, Gamedev
+| [Make a Snake game from start to finish](https://youtu.be/lfiQNCNUifI?si=I3x4X7niiFHiXl_n) | Beginner tutorial about making a simple snake game in Raylib | Youtube, Tutorial, Gamedev
 | [Simple Undo/Redo](https://jakubtomsu.github.io/posts/simple_undo_redo_in_odin/) | An article about a grug brained approach to level editor history | Article, Gamedev
 | [Odin SDL3 GPU Tutorial](https://www.youtube.com/playlist?list=PLI3kBEQ3yd-CbQfRchF70BPLF9G1HEzhy) | A video tutorial series on how to get started with the SDL3 GPU API | Youtube, Tutorial, Playlist
 
@@ -329,7 +329,7 @@ Open-source software implemented in Odin.
 | [LD55 - The Last Summoner](https://github.com/atomicptr/ld55) | LD55 entry made with Odin and Raylib. You are the last summoner alive in an apocalypse and you have to survivor using your summons! | [GPL-3.0](https://github.com/atomicptr/ld55/blob/master/LICENSE) | Gamedev, Raylib
 | [Asterboids](https://github.com/keenanwoodall/asterboids) | Rogue-like space shooter. Made with Odin + Raylib | [MIT](https://github.com/keenanwoodall/asterboids/blob/main/LICENSE.txt) | Gamedev, Raylib, 2D
 | [Voxel Game](https://github.com/kyumikek/voxel-game) | A WIP voxel game engine inspired by minecraft | None | Gamedev, Raylib, 3D
-| [Solitare](https://github.com/A1029384756/odin-solitaire) ⭐ | Solitare clone using Odin and Raylib | None | Gamedev, 2D, Raylib, Clone
+| [Solitare](https://github.com/A1029384756/odin-solitaire) | Solitare clone using Odin and Raylib | None | Gamedev, 2D, Raylib, Clone
 | [Tetris](https://github.com/ThadeuFerreira/tetris) | Simple tetris clone | None | Gamedev, 2D, Raylib, Clone
 | [My Pong](https://github.com/matthewelmer/my_pong) | Pong clone in Odin and Raylib | None | Gamedev, 2D, Raylib, Clone
 | [Simple Neural Network](https://github.com/Alkamist/odin_simple_neural_network) | A little experiment with machine learning based on [3Blue1Brown's series on basic deep learning](https://www.youtube.com/watch?v=aircAruvnKk) | None | ML
@@ -356,7 +356,7 @@ A list of interesting software built in Odin. It's not open-source, but it can s
 # Editor Support
 | Name                                                    | Description                                     | License
 |---------------------------------------------------------|-------------------------------------------------|-----------------------
-| [OLS](https://github.com/DanielGavin/ols) ⭐              | Odin language server                            | [MIT](https://github.com/DanielGavin/ols/blob/master/LICENSE)
+| [OLS](https://github.com/DanielGavin/ols)              | Odin language server                            | [MIT](https://github.com/DanielGavin/ols/blob/master/LICENSE)
 | [JetBrains IDEs](https://github.com/obiwan87/odin-intellij) | Odin support with static code analysis for IntelliJ and others | [MIT](https://plugins.jetbrains.com/plugin/22933-odin-support) |
 | [Sublime Text](https://github.com/odin-lang/sublime-odin) | Odin syntax definition for Sublime Text       | [MIT](https://github.com/odin-lang/sublime-odin/blob/master/LICENSE)
 | [GNU/Emacs](https://github.com/mattt-b/odin-mode)       | Odin editing mode for GNU/Emacs                 | None
