@@ -103,7 +103,6 @@ A curated list of awesome Odin libraries, software and resources.
 ### Other
 | Name | Description | License | Tags |
 | ---- | ----------- | ------- | ---- |
-| [Simple History](https://github.com/Skytrias/simple-history) | A simple undo / redo history | [MIT](https://github.com/Skytrias/simple-history/blob/master/LICENSE) | UI, Gamedev, Tools, Editor
 | [ADS1256 driver](https://github.com/Platin21/ads1256-odin) | Driver for Ti ADS1256 | [MIT](https://github.com/Platin21/ads1256-odin/blob/main/LICENSE) | Embedded
 | [Mani](https://github.com/DragosPopse/mani) | Lua bidirectional bindings generator | None | Lua, Generator
 | [odin-build](https://github.com/DragosPopse/odin-build) | Build system for Odin | None | Auxiliary, Tooling
